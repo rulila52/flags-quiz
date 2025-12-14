@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [react()],
+    envPrefix: "APP_",
     // resolve: {
     //     alias: {
     //         '@': resolve(__dirname, './src'),
